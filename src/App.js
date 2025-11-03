@@ -55,8 +55,8 @@ export default function BookFinder() {
       <h1>Book Finder — for Alex</h1>
       <div style={{ display: 'flex', gap: 8, marginBottom: 12 }}>
         <select value={searchMode} onChange={(e) => setSearchMode(e.target.value)}>
-          <option value="title">Title</option>
-          <option value="author">Author</option>
+          <option value="title">Title__</option>
+          <option value="author">Author__</option>
         </select>
         <input
           placeholder={searchMode === 'title' ? 'Enter book title' : 'Enter author name'}
