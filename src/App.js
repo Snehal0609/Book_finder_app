@@ -214,6 +214,6 @@ export default function BookFinder() {
           </div>
         ))}
       </div>
-    </div>
-  );
+    </div >
+  ); 
 }
